@@ -26,8 +26,7 @@ public class Def {
     
     public double enemyUp(){ 
         countEnemy ++;
-        enemy = 0.2;
-        if(countEnemy == 100){
+        if(countEnemy == 60){
             enemy = enemy + 0.1;  
             System.out.println(enemy);
             countEnemy = 0;

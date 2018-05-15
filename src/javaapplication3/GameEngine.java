@@ -28,7 +28,7 @@ public class GameEngine implements KeyListener, GameReporter{
         private int temp2 = 0;
         private int i = 0;
 	private double difficulty = 0.2;
-        private Def speed = new Def(100,0);
+        private Def speed = new Def(100,0.2);
 	public GameEngine(GamePanel gp, SpaceShip v) {
 		this.gp = gp;
 		this.v = v;
